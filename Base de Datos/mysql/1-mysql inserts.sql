@@ -63,4 +63,3 @@ INSERT INTO books(publisher_id, title, author, description, price, copies) VALUE
     (5, 'Pet Caring for Geeks', 'KC', 'Que tu perro aprenda a programar', 18.79, 3 ),
     (1, 'Algebra basica', 'Al Juarismi', 'Esto de encontrar X o Y, dependiendo', 13.50, 8);
     
-select * from books;
