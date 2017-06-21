@@ -63,3 +63,19 @@ INSERT INTO books(publisher_id, title, author, description, price, copies) VALUE
     (5, 'Pet Caring for Geeks', 'KC', 'Que tu perro aprenda a programar', 18.79, 3 ),
     (1, 'Algebra basica', 'Al Juarismi', 'Esto de encontrar X o Y, dependiendo', 13.50, 8);
     
+select * from books;
+
+insert into actions (book_id, user_id, action_type)values
+  (3, 2, 'venta'),
+  (6, 1, 'prestamo'),
+  (7, 7, 'prestamo'),
+(7, 7, 'devolucion'),
+  (2, 5, 'venta'),
+  (10, 9, 'venta'),
+  (18, 8, 'prestamo'),
+  (12, 4, 'venta'),
+  (1, 3, 'venta'),
+  (4, 5, 'prestamo'),
+  (5, 2, 'venta');
+  
+select * from actions;
